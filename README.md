@@ -13,6 +13,9 @@ Flow Field implementation based on Eikonal Equation.
 - Handles obstacles and the position closest to the destination cell without going through the obstacles.
 - Can handle tiles with different movement speed (not presented in the project).
 - Eikonal Equation is not perfect - distance values and directions are not always completely accurate. It can be easily seen for 2x2 pathfinding with destination on 1x1, where gradient value on 2x2 is 1.71 instead of being ~1.41.
+
+Implemented on Unity 2022.3.5f1.
+
 ### Performance
 Time complexity: `O(width * height)` with a fairly high constant.
 
