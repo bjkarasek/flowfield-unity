@@ -29,7 +29,7 @@ namespace FlowField
             var distance = new NativeArray<double>(size, Allocator.Persistent);
             var goal = new NativeArray<double2>(size, Allocator.Persistent);
 
-            var job = new FastMarchingJob()
+            var job = new FlowCalculationJob()
             {
                 Map = map,
                 Height = height,

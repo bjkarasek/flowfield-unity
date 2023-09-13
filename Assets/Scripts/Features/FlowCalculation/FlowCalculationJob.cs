@@ -7,7 +7,7 @@ using UnityEngine;
 namespace FlowField
 {
     [BurstCompile]
-    public struct FastMarchingJob : IJob
+    public struct FlowCalculationJob : IJob
     {
         [ReadOnly] public NativeArray<double> Map;
         [ReadOnly] public Vector2Int Source;
