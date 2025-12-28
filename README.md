@@ -1,6 +1,4 @@
 # Flow Field implementation based on Eikonal Equation for Unity
-### Socials
-[Twitter](https://twitter.com/BJKgamedev) | [Youtube](https://www.youtube.com/channel/UCyfwnxacJqN3vBFI6vVj_8g)
 ### Showcase video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CfXa_U5K0lw/0.jpg)](https://www.youtube.com/watch?v=CfXa_U5K0lw)
 ### Description
